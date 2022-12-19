@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'pretendard';
+            font-size: 14px;
+            color: #444444;
+            background-color: rgb(255, 242, 205);
+            background-image: url(img/banner2.png);
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        header {
+            width: 1140px;
+            height: 100px;
+            margin: 0 auto;
+
+        }
+
+        #logo {
+            float: left;
+            margin: 40px 0 0 20px;
+
+        }
+
+        #menus {
+            float: right;
+        }
+
+        #top_menu {
+            float: right;
+            margin-top: 20px;
+
+        }
+
+        #main_menu {
+            margin-top: 60px;
+
+            font-family: 'pretendard';
+            font-size: 15px;
+            color: black;
+
+        }
+
+        #main_menu li {
+            display: inline;
+            margin-left: 50px;
+        }
+
+        #main_menu a {
+            color: black;
+            text-decoration: none;
+        }
+        #main_menu a:link{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        #main_menu a:visited{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        #main_menu a:hover{
+            text-decoration: none;
+            color: #a24300;
+            text-decoration: underline;
+        }
+        #main_img {
+            width: 100%;
+            height: px;
+
+        }
+
+        #contents {
+            width: 1140px;
+            margin: 0 auto;
+        }
+
+        #sub_menu {
+            width: 234px;
+            float: left;
+            margin-top: 50px;
+
+        }
+
+        #sub_menu h3 {
+            font-size: 18px;
+            color: #a24300;
+            margin-bottom: 10px;
+        }
+
+        #sub_menu li {
+            padding: 10px;
+            border-bottom: dotted 1px #cccccc;
+        }
+
+        #sub_menu a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #main_contents {
+            width: 880px;
+            float: right;
+            margin-top: 50px;
+
+        }
+
+        #main_contents h3 {
+            font-size: 22px;
+            padding-bottom: 8px;
+            border-bottom: solid 1px #cccccc;
+        }
+
+        #main_contents p {
+            margin-top: 30px;
+            line-height: 180%;
+            text-align: center;
+        }
+
+        #main_contents p1 {
+            margin-top: 30px;
+            color: red;
+        }
+
+        #main_contents #new1 {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        #main_contents li {
+            padding: 5px;
+        }
+
+       /***********************푸터*******************/
+       html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #body-wrapper {
+            min-height: 100%;
+            position: relative;
+        }
+
+        #body-content {
+            margin-top: 100px;
+            padding-bottom: 550px;
+            /* footer의 높이 */
+        }
+
+        footer {
+            width: 100%;
+            height: 550px;
+            /* footer의 높이 */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-image: url(img/banner.gif);
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+
+        /* footer 하단 고정 [E] */
+
+
+        #footer_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+
+
+        }
+
+        #footer_logo {
+            float: left;
+            margin: 400px 0 0 30px;
+        }
+
+        #address {
+            float: right;
+            margin: 400px 30px 0 0;
+
+            color: blanchedalmond;
+        }
+/****************************************/
+        .jb-a {
+            width: 400px;
+            margin: 0px auto;
+            position: relative;
+            margin-left: 200px;
+            margin-top: 30px;
+        }
+
+        .jb-c {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            opacity: 0;
+            transition: opacity 0.3s linear;
+        }
+
+        .jb-a:hover .jb-c {
+            opacity: 1;
+        }
+
+        #left {
+            float: left;
+            margin-top: 250px;
+
+        }
+
+        #right {
+            float: right;
+            margin-top: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href='index.html'><img src="img/logo.png" height="30px;"></a>
+        </div>
+        <nav id="menus">
+
+
+
+
+            <ul id="main_menu">
+                <li><a href='new.html'>new</a></li>
+                <li><a href='cosmetic.html'>cosmetic</a></li>
+                <li><a href='how_to_make.html'>how to make</a></li>
+                <li><a href='event.html'>event</a></li>
+                <li><a href='story.html'>story</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id='body-wrapper'>
+        <div id="body-content">
+    <section id='main_img'>
+    </section>
+    <section id="contents">
+        <nav id="sub_menu">
+            <h3>코스메틱</h3>
+            <ul>
+                <li><a href='cosmetic.html'>eye</a></li>
+                <li><a href='cosmeticlip.html'>lip</a></li>
+                <li><a href='cosmeticetc.html'>etc.</a></li>
+            </ul>
+        </nav>
+        <div id="main_contents">
+            <p1>hershey x glamlite</p1>
+            <h3>KISSES x GLAMLITE Milk chocolate pallete</h3>
+            <div id="left">
+                <a href='cosmeticeye1.html'><img src="img/left.png" height="20px;"></a>
+            </div>
+            <div id="right">
+                <a href='cosmetic.html'><img src="img/right.png" height="20px;"></a>
+            </div>
+
+            <div class="jb-a">
+                <img src="img/c1.png" height='500px;' alt="" class="jb-b">
+                <img src="img/c11.png" height='500px;' alt="" class="jb-c">
+            </div>
+            <p>허쉬의 키세스 x 글램라이트 밀크 초콜릿 팔레트로 멋진 모습을 보여주세요!<br>누드부터 딥 초콜릿 브라운까지 6가지 퇴폐적인 색조와 메탈릭한 반짝임을 사이에 두고 절제되거나 스모키한 아이 스타일을 연출할 수 있습니다.</p>
+
+    </section>
+    <aside></aside>
+    <div class="clear"></div> <!--float속성 해제 -->
+        </div>
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <img src="img/logo.png" height="30px;">
+            </div>
+            <ul id="address">
+                <li>서울특별시 중구 삼일대로 343, 11층 </li>
+                <li>사업자등록번호 : 101-84-03727</li>
+                <li>Copyright by 2022 Heo Seo A ALL RIGHTS RESERVED</li>
+            </ul>
+        </div>
+    </footer>
+        </div>
+</body>
+
+</html>

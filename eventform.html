@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'pretendard';
+            font-size: 14px;
+            color: #444444;
+            background-color: rgb(255, 246, 205);
+            background-image: url(img/banner2.png);
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        header {
+            width: 1140px;
+            height: 100px;
+            margin: 0 auto;
+
+        }
+
+        #logo {
+            float: left;
+            margin: 40px 0 0 20px;
+
+        }
+
+        #menus {
+            float: right;
+        }
+
+        #top_menu {
+            float: right;
+            margin-top: 20px;
+
+        }
+
+        #main_menu {
+            margin-top: 60px;
+
+            font-family: 'pretendard';
+            font-size: 15px;
+            color: black;
+
+        }
+
+        #main_menu li {
+            display: inline;
+            margin-left: 50px;
+        }
+
+        #main_menu a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #main_menu a:link {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        #main_menu a:visited {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        #main_menu a:hover {
+            text-decoration: none;
+            color: #a24300;
+            text-decoration: underline;
+        }
+
+        #contents {
+            width: 1140px;
+            margin: 0 auto;
+
+        }
+
+        #main_img {
+            width: 100%;
+            height: 650px;
+            background-image: url('img/a1.png');
+            background-repeat: no-repeat;
+            background-position: top center;
+
+        }
+
+        #main_contents {
+            width: 880px;
+            float: right;
+            margin-top: 50px;
+            margin-bottom: 30px;
+
+        }
+
+        #main_contents h1 {
+            font-size: 40px;
+            margin-left: 80px;
+            margin-bottom: 50px;
+        }
+
+        #main_contents p {
+            margin-top: 30px;
+            line-height: 180%;
+            text-align: center;
+        }
+
+        #main_contents p1 {
+            margin-top: 30px;
+            color: red;
+            margin-left: 300px;
+        }
+
+        #main_contents #new1 {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        #main_contents li {
+            padding: 5px;
+        }
+
+        /***********************푸터*******************/
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #body-wrapper {
+            min-height: 100%;
+            position: relative;
+        }
+
+        #body-content {
+            margin-top: 100px;
+            padding-bottom: 550px;
+            /* footer의 높이 */
+        }
+
+        footer {
+            width: 100%;
+            height: 550px;
+            /* footer의 높이 */
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-image: url(img/banner.gif);
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+
+        /* footer 하단 고정 [E] */
+
+
+        #footer_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+
+
+        }
+
+        #footer_logo {
+            float: left;
+            margin: 400px 0 0 30px;
+        }
+
+        #address {
+            float: right;
+            margin: 400px 30px 0 0;
+
+            color: blanchedalmond;
+        }
+
+        /****************************************/
+        button {
+            color: blanchedalmond;
+            background-color: #6B2D00;
+            margin-left: 500px;
+            margin-right: 500px;
+            text-align: center;
+            font-size: 25px;
+            border-radius: 15px;
+            margin-top: 20px;
+            border: solid 1px;
+
+        }
+
+        button a:link {
+            text-decoration: none;
+            color: blanchedalmond;
+        }
+
+        button a:visited {
+            text-decoration: none;
+            color: blanchedalmond;
+        }
+
+        button a:hover {
+            text-decoration: none;
+            color: #2a1100;
+        }
+
+
+
+        form {
+            clear:both;
+            width: 500px;
+            height: 350px;
+            margin-left: 320px;
+            margin-right: 300px;
+            padding: 20px 0 0 20px;
+
+            background-color: rgba(255, 255, 255, 0);
+
+        }
+
+        button {
+            width: 80px;
+            color: blanchedalmond;
+            background-color: #6B2D00;
+            border-radius: 15px;
+            font-size: 20px;
+            border: solid 1px;
+            margin-left: 540px;
+            margin-top: 30px;
+        }
+        #button {
+
+background-color: #6B2D00;
+color: blanchedalmond;
+margin-left: 500px;
+margin-right: 500px;
+text-align: center;
+font-size: 25px;
+border-radius: 15px;
+margin-top: 20px;
+
+}
+#button a:link{
+text-decoration: none;
+color: blanchedalmond;
+}
+#button a:visited{
+text-decoration: none;
+color: blanchedalmond;
+}
+#button a:hover{
+text-decoration: none;
+color: #2a1100;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href='index.html'><img src="img/logo.png" height="30px;"></a>
+        </div>
+        <nav id="menus">
+
+
+
+
+            <ul id="main_menu">
+                <li><a href='new.html'>new</a></li>
+                <li><a href='cosmetic.html'>cosmetic</a></li>
+                <li><a href='how_to_make.html'>how to make</a></li>
+                <li><a href='event.html'>event</a></li>
+                <li><a href='story.html'>story</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id='body-wrapper'>
+        <div id="body-content">
+            <div class="clear"></div> <!--float속성 해제 -->
+            <section id="contents">
+
+                <div id="main_contents">
+                    <p1>event</p1>
+                    <h1>나만의 키세스를 표현해보세요!</h1>
+                </div>
+                <form>
+                    <br>
+                    <p>제출양식</p>
+                    <br><br><br>
+                    <table>
+                        <tr>
+                            <td>이름</td>
+                            <td><input type='text'></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>이메일</td>
+                            <td><input type='text'> @
+                                <select>
+                                    <option>선택</option>
+                                    <option>naver.com</option>
+                                    <option>gmail.com</option>
+                                    <option>daum.net</option>
+                                    <option>직접 입력</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>주소</td>
+                            <td><textarea rows="4" cols="50"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>파일 첨부</td>
+                            <td><input type='file'></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                    </table>
+                </form>
+
+                <div id="button"><a href=eventsucess.html>제출하기</a></div>
+
+            </section>
+
+
+            <div class="clear"></div> <!--float속성 해제 -->
+        </div>
+        <footer>
+            <div id="footer_box">
+                <div id="footer_logo">
+                    <img src="img/logo.png" height="30px;">
+                </div>
+                <ul id="address">
+                    <li>서울특별시 중구 삼일대로 343, 11층 </li>
+                    <li>사업자등록번호 : 101-84-03727</li>
+                    <li>Copyright by 2022 Heo Seo A ALL RIGHTS RESERVED</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
